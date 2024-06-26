@@ -8,10 +8,10 @@ More surprises to come??
 
 Well, [the old 890 repo](https://github.com/M7OCM/890) is back. The original content required some much needed housekeeping plus I've been focussing on LoRa projects.
 
-I love the RT-890 and use it daily. So watch this space... just waiting on the hardware to arrive to test.
+I love the RT-890 and use it daily. So watch this space...
 
 Thanks to Kevin @Radtel for the latest hardware for testing firmware compatibility.
 
-73 for now
+73
 
 M7OCM
