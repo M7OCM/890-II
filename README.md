@@ -4,11 +4,7 @@
 
 For old PCB 2.0 model see [here](https://github.com/M7OCM/890)
 
-![20240623_160515](https://github.com/M7OCM/890/assets/128899149/a6059ea7-b679-45c9-931c-673f2019d232)
-
 M7OCM v2.1.7 Firmware based on Open Edition Firmware Community [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
-
-![20240618_204146](https://github.com/M7OCM/890/assets/128899149/3e4a4532-8092-4c5f-9420-063d69af6e3a)
 
 This is a personal project for my use primarily. Unfortunately, I cannot accomodate feature requests due to time constraints - this is just a hobby I do for fun (joke). Its "as is". If you don't like it, or it doesn't perform to your expectations don't use it or join forces - fork your own version, modify mine or start from scratch; code freely available here:
 
