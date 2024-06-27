@@ -1,6 +1,6 @@
 # Modified OEFWCOM Transceiver Firmware for Radtel RT-890
 
-**890-II PCB 2.1 Only (pre Radtel OEM FW V1.37 PCB 2.1)**
+**890-II PCB 2.1 Only**
 
 For old PCB 2.0 model see [here](https://github.com/M7OCM/890)
 
