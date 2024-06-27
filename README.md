@@ -13,7 +13,7 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 [DualTachyon OEFW UV-K5/RT-890](https://github.com/dualtachyon)
 
 **LATEST 27 June 2024**
-Released early with a provisio, early days using PCB 2.1 testing is not complete, work in progress - feel free to change parameters
+Released early with a provisio, early days using PCB 2.1 testing is not complete, work in progress - feel free to change parameters.
 
 1 bin file to accomodate new PCB 2.1 revision - BK4819 GPIO0 (pin 28) has moved to GPIO3 (pin 31).
 
