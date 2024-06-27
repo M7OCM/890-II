@@ -15,13 +15,11 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 **LATEST 27 June 2024**
 Released early with a provisio, early days using PCB 2.1 testing is not complete, work in progress - feel free to change parameters
 
-1 bin file to accomodate new PCB 2.1 revision - BK4819 GPIO0 (pin 28) has moved to GPIO3 (pin 31). There are a lot of UI changes, plus the scan speed has been reduced to stock for stability (this can be increased, but at the expense of tone detection and search never stopping on a carrier in VFO mode. I have reverted to 890-I stock filter bandwidth *<>* to increase performance for PCB 2.1 (PCB 2.0 version will be different) as it seems the 2.1 version is less sensitive. Again this open to further testing and experiment. Other parts of the firmware will be looked into to try and improve that aspect. For now it work ok and is stable. I recommend using AM Fix on PCB 2.1. On a positive not AM is less likely to over saturate (from limited testing) with AM Fix off. I'll be performing power testing to see how that compares to PCB 2.0. Thanks to Kevin @Radtel for the latest hardware for testing firmware compatibility.
+1 bin file to accomodate new PCB 2.1 revision - BK4819 GPIO0 (pin 28) has moved to GPIO3 (pin 31).
 
-*<>* if (bIsNarrow) {
-			BK4819_WriteRegister(0x43, 0x4048);
-		} else {
-			BK4819_WriteRegister(0x43, 0x3028);
-		}
+There are a lot of UI changes, plus the scan speed has been reduced to stock for stability (this can be increased, but at the expense of tone detection and search never stopping on a carrier in VFO mode. I have reverted to 890-I stock filter bandwidth [ie reg 0x4048) : 0x3028) to increase performance for PCB 2.1 (PCB 2.0 version will be different) as it seems the 2.1 version is less sensitive. Again this open to further testing and experiment. Other parts of the firmware will be looked into to try and improve that aspect. For now it works and is stable. I recommend using AM Fix on PCB 2.1. On a positive note AM is less likely to over saturate (from limited testing) with AM Fix off. I'll be performing power testing to see how that compares to PCB 2.0.
+
+Thanks to Kevin @Radtel for the latest hardware for testing firmware compatibility.
 
 **Default Keys**
 
