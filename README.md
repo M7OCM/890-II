@@ -6,8 +6,7 @@ For old PCB 2.0 model see [here](https://github.com/M7OCM/890)
 
 ![20240627_194208](https://github.com/M7OCM/890-II/assets/128899149/55a22f1d-81ad-4200-bcb6-49139823d75f)
 
-
-M7OCM v2.1.7 PCB 2.1 Firmware based on Open Edition Firmware Community [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
+M7OCM v2.1.n PCB 2.1 Firmware based on Open Edition Firmware Community [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
 
 This is a personal project for my use primarily. Unfortunately, I cannot accomodate feature requests due to time constraints - this is just a hobby I do for fun (joke). Its "as is". If you don't like it, or it doesn't perform to your expectations don't use it or join forces - fork your own version, modify mine or start from scratch; code freely available here:
 
@@ -15,13 +14,15 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 
 [DualTachyon OEFW UV-K5/RT-890](https://github.com/dualtachyon)
 
-**LATEST 27 June 2024**
+**LATEST 9 July 2024**
 
-Released early with a provisio: early days using PCB 2.1 testing is not complete, work in progress - feel free to change parameters.
+v2.1.8 released. Remit: Improve AM. Changes made to chip default registers and improved AM Fix code specifically for the RT-890 PCB 2.1. AM Fix default "on", works very well even with 20dB external gain.
+
+27 June 2024 v2.1.7 released early with a provisio: early days using PCB 2.1 testing is not complete, work in progress - feel free to change parameters.
 
 1 bin file to accommodate new PCB 2.1 revision - BK4819 GPIO0 (pin 28) has moved to GPIO3 (pin 31).
 
-There are a lot of UI changes, plus the scan speed has been reduced to stock for stability (this can be increased, but at the expense of tone detection and search never stopping on a carrier in VFO mode. I have reverted to 890-I stock filter bandwidth ie 0x4048 : 0x3028 to improve performance for PCB 2.1 (PCB 2.0 version will be different) as it seems the 2.1 version is less sensitive on airband. Again this open to further testing and experiment. Other parts of the firmware will be looked into to try and improve that aspect. For now it works and is stable. I recommend using AM Fix on PCB 2.1. On a positive note AM is less likely to over saturate (from limited testing) with AM Fix off. I'll be performing power testing to see how that compares to PCB 2.0.
+There are a lot of UI changes, plus the scan speed has been reduced to stock for stability (this can be increased, but at the expense of tone detection and search never stopping on a carrier in VFO mode. I have reverted to 890-I stock filter bandwidth ie 0x4048 : 0x3028 to improve performance for PCB 2.1 (PCB 2.0 version will be different) as it seems the 2.1 version is less sensitive on airband. Again this open to further testing and experiment. Other parts of the firmware will be looked into to try and improve that aspect. For now it works and is stable. I recommend using AM Fix on PCB 2.1. On a positive note AM is less likely to over saturate (from limited testing) with AM Fix off.
 
 Thanks to Kevin @Radtel for the latest hardware for testing firmware compatibility.
 
