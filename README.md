@@ -150,7 +150,7 @@ The default border color used is grey (33808). The code change can be made in Ch
 - 7 1650Hz
 - 8 1700Hz
 
-## Features in v2.1.7 PCB 2.1
+## Features in v2.1.8 PCB 2.1
 
 - RX is unlocked 10 MHz to 1.3 GHz CAUTION experimental use only. BK4819 (useable) RX is approx 50-600 MHz; Reception outside of this range is possible but not guaranteed; radio may also exhibit erratic behaviour.
 
@@ -166,7 +166,7 @@ The default border color used is grey (33808). The code change can be made in Ch
 - PTT BCLO TX during monitor revised, PTT now TX when monitor is open
 - RSSI timer speed reduction to reduce internal RFI caused by SPI (screen) updates
 - Full colour spectrum with control options, views
-- AM Fix ported from 1 of 11's UV-K5 firmware
+- AM Fix ported from 1 of 11's UV-K5 firmware, tuned for RT-890
 - RF Gain Control and Register Editor
 - Flashlight Mode
 - NOAA Monitor
