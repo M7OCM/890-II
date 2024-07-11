@@ -14,6 +14,8 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 
 [DualTachyon OEFW UV-K5/RT-890](https://github.com/dualtachyon)
 
+I endeavour to investigate issues I hear about and fix them (if I can recreate them). I cannot set a time scale when or if fixes will be made. I'm sure all manner of weirdness can be created with non standard operating (lol). If the latest version exhibits such, try an earlier version or return to stock V1.37, then try again.
+
 **LATEST 9 July 2024**
 
 v2.1.8 released. Remit: Improve AM. Changes made to chip default registers and improved AM Fix code specifically for the RT-890 PCB 2.1. AM Fix default "on", works very well even with 20dB external gain.
@@ -127,7 +129,7 @@ Note. When entering a 8.333kHz frequency in Chirp, this needs to be entered in i
 
 **FM Broadcast (FMB)**
 
-Default [0/FM], toggle FMB On/FMB Idle. The 4 digit FM frequency now appears in the upper left part of the status bar. It works the same as stock just without the garbage graphics. Turn on FM Standby via menu, and you can listen to FMB while scanning/searching. When a signal is present the FM radio will mute, then continue until another signal appears - pretty cool!
+Default [0/FM], toggle FMB On/FMB Idle. The 4 digit FM frequency now appears in the upper left part of the status bar. It works the same as stock just without the garbage graphics. Turn on FM Standby via menu, and you can listen to FMB while scanning/searching. When a signal is present the FM radio will mute, then continue until another signal appears - pretty cool! Note using the FMB after Spectrum may result in poor reception, no reception or work as normal, this is generally linked to specfic bands such as 440 MHz (probably many more). Reboot, or select scan then FMB. This is a known issue. The radio uses a dedicated FMB chip not the BK4819.
 
 To clear the idle frequency, press [0/FM] or [PTT] then [MENU].
 
