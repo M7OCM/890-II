@@ -129,7 +129,7 @@ Note. When entering a 8.333kHz frequency in Chirp, this needs to be entered in i
 
 **FM Broadcast (FMB)**
 
-Default [0/FM], toggle FMB On/FMB Idle. The 4 digit FM frequency now appears in the upper left part of the status bar. It works the same as stock just without the garbage graphics. Turn on FM Standby via menu, and you can listen to FMB while scanning/searching. When a signal is present the FM radio will mute, then continue until another signal appears - pretty cool! Note using the FMB after Spectrum may result in poor reception, no reception or work as normal, this is generally linked to specfic bands such as 440 MHz (probably many more). Reboot, or select scan then FMB. This is a known issue. The radio uses a dedicated FMB chip not the BK4819.
+Default [0/FM], toggle FMB On/FMB Idle. The 4 digit FM frequency now appears in the upper left part of the status bar. It works the same as stock just without the garbage graphics. Turn on FM Standby via menu, and you can listen to FMB while scanning/searching. When a signal is present the FM radio will mute, then continue until another signal appears - pretty cool! Note using the FMB after Spectrum may result in poor reception, no reception or work as normal, this is generally linked to specfic bands such as 440 MHz (probably many more). Open squelch to reset chip registers usually works, reboot, or select scan then FMB. This is a known issue. The radio uses a dedicated FMB chip not the BK4819. Resetting the latter clears any issues though.
 
 To clear the idle frequency, press [0/FM] or [PTT] then [MENU].
 
