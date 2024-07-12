@@ -20,7 +20,7 @@ I endeavour to investigate issues I hear about and fix them (if I can recreate t
 
 EXPERIMENTAL releases (2)
 
-v2.1.8 released. Remit: Improve AM. Changes made to chip default registers and improved AM Fix code specifically for the RT-890 PCB 2.1. AM Fix default "on", works well even with 20dB external gain, in fact the more gain the better results (IME). Also works with AM Fix off, but may lead to overloading in some circumstances. Working on further mods to improve this. Possibly do away with AM Fix altogether (that's the goal).
+v2.1.8 released. Remit: Improve AM. Changes made to chip default registers and improved AM Fix code specifically for the RT-890 PCB 2.1. AM Fix default "on", works well even with 20dB external gain, in fact the more gain the better results (IMO). Also works with AM Fix off, but may lead to overloading in some circumstances. Working on further mods to improve this. Possibly do away with AM Fix altogether (that's the goal).
 
 27 June 2024 v2.1.7 released early with a provisio: early days using PCB 2.1 testing is not complete, work in progress - feel free to change parameters. 1 bin file to accommodate new PCB 2.1 revision - BK4819 GPIO0 (pin 28) has moved to GPIO3 (pin 31).
 
