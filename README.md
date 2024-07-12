@@ -43,7 +43,7 @@ The following keypad keys are all LP
 - [2] Modulation
 - [3] Bandwidth
 - [4] TX Power
-- [5] AM Fix (PCB 2.1 only)
+- [5] AM Fix
 - [6] Dual Standby
 - [7] Repeater Mode
 - [8] Reg Editor
