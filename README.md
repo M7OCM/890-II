@@ -14,6 +14,8 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 
 I endeavour to investigate issues I hear about and fix them (if I can recreate them). I cannot set a time scale when or if fixes will be made. I'm sure all manner of weirdness can be created with non standard operating (lol). If the latest version exhibits such, try an earlier version or return to stock V1.37, then try again.
 
+![20240813_103718](https://github.com/user-attachments/assets/6ee80507-def9-49bb-9e21-05a1535fde47)
+
 **LATEST**
 
 13 August 2024 v2.1.9 PCB2.1
