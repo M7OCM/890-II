@@ -22,7 +22,7 @@ I endeavour to investigate issues I hear about and fix them (if I can recreate t
 
 UI. Light theme colours changed. Some were hard to see when the radio was used outside (not perfect, but hey ho). Signal strength meter split into thirds rather than quarters. Single Freq mode: register display order changed to reflect AM Fix code order (LNAS, LNA, MIX, PGA). BW and WK are tunable separately and on boot are defaulted BW4 WK0, feel free to adjust in either AGC or FGC modes BW2 WK1 are good for fine tuning.
 
-The register order change makes cross referencing the gain table (see Register Editor below) much easier, especially for users experimenting with FGC (AM Fix off). Incidentally, register changes also work with FM not just AM, although impact is less dynamic as AGC works well on FM.
+The register order change makes cross referencing the gain table (see Register Editor below) much easier, especially for users experimenting with FGC (AM Fix off).
 
 AM Fix. I've been testing the previous changes I made exclusively for many weeks and I'm pleased with overall performance. There are times when gain fluctuates, noise spikes, and in some instances audio is truncated or quietens. That said for the relatively few instances where the auto gain response is inadequete the vast majority of time, overall listening pleasure is improved, use FGC if you are struggling, or open the squelch, wait a few seconds, to unleash max gain thus realigning AGC. Thats my finding anyway, your experience may well differ. Location and antenna type/gain play a major role in all of this. I've experimented with numerous antennae, but its nigh on impossible to cater for all eventualities - don't expect miracles!
 
