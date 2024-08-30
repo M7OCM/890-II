@@ -62,6 +62,43 @@ The following keypad keys are all LP
 - [MENU] TX CTCSS/DCS
 - [EXIT] Single/Dual Display
 
+Side Key/Custom Key(pad) Options
+- None
+- Monitor
+- FreqDetect
+- RepeatMode
+- PresetCH
+- LocalAlarm
+- RemoteAlarm
+- NOAA
+- SendTone
+- TXTone
+- FMRadio
+- FreqScanner
+- Flashlight
+- AMFix
+- VOX
+- TXPower
+- Squelch
+- DualStandby
+- Backlight
+- FreqStep
+- KeyBeep
+- ToggleSList
+- DTMFInput
+- DualDisplay
+- TXFrequency
+- Lock
+- Spectrum
+- DarkTheme
+- RFGain
+- RegEditor
+- MicGain
+- Modulation
+- Bandwidth
+- TXCTCSS/DCS
+- TXPriority
+
 **Spectrum**
 
 Enter by pressing side key 2 LP
@@ -205,7 +242,84 @@ Order is LNAS, LNA, MIX, PGA
 - 3727 ... -3dB
 - 3637 ... -2dB
 - 3737 ...  0dB
-  
+
+**Main Menu Order**
+-  1	StartupLogo
+-  2	CellVoltage
+-  3	StartupTone
+-  4	StartupText
+-  5	VoicePrompt
+-  6	KeyBeep
+-  7	TXTone
+-  8	DualDisplay
+-  9	TXPriority
+- 10	PowerSave
+- 11	FreqStep
+- 12	SquelchLevel
+- 13	Backlight
+- 14	LockTime
+- 15	TimeOfTalk
+- 16	VOXLevel
+- 17	VOXDelay
+- 18	NOAAMonitor
+- 19	FMStandby
+- 20	TailTone
+- 21	Scan>>>
+- 22	FSKID
+- 23	RepeaterMode
+- 24	ScanResume
+- 25	ScanLED
+- 26	CTCSS/DCS
+- 27	RXCTCSS/DCS
+- 28	TXCTCSS/DCS
+- 29	TXPower
+- 30	MicGain
+- 31	Modulation
+- 32	Bandwidth
+- 33	ListToScan
+- 34	ChInList1
+- 35	ChInList2
+- 36	ChInList3
+- 37	ChInList4
+- 38	ChInList5
+- 39	ChInList6
+- 40	ChInList7
+- 41	ChInList8
+- 42	BusyLock
+- 43	InvertSpeech
+- 44	DCSEncrypt
+- 45	MuteCode
+- 46	ChannelName
+- 47	SaveChannel
+- 48	DeleteChannel
+- 49	Side1Long
+- 50	Side1Short
+- 51	Side2Long
+- 52	Side2Short
+- 53	Key0Long
+- 54	Key1Long
+- 55	Key2Long
+- 56	Key3Long
+- 57	Key4Long
+- 58	Key5Long
+- 59	Key6Long
+- 60	Key7Long
+- 61	Key8Long
+- 62	Key9Long
+- 63	Key*Long
+- 64	Key#Long
+- 65	KeyMenuLong
+- 66	KeyExitLong
+- 67	ResetKeys
+- 68	DTMFDelay
+- 69	DTMFInterval
+- 70	DTMFMode
+- 71	DTMFSelect
+- 72	DTMFDisplay
+- 73	DarkTheme
+- 74	Initialize
+- 75	Version
+
 **Scan lists and Scanning**
 
 There are 8 scan lists plus scan all. Active lists are displayed in the status bar when scanning.
