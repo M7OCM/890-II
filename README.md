@@ -65,39 +65,39 @@ The following keypad keys are all LP
 Side Key/Custom Key(pad) Options
 - None
 - Monitor
-- FreqDetect
-- RepeatMode
-- PresetCH
-- LocalAlarm
-- RemoteAlarm
+- Freq Detect
+- Repeat Mode
+- Preset CH
+- Local Alarm
+- Remote Alarm
 - NOAA
-- SendTone
-- TXTone
-- FMRadio
-- FreqScanner
+- Send Tone
+- TX Tone
+- FM Radio
+- Freq Scanner
 - Flashlight
-- AMFix
+- AM Fix
 - VOX
-- TXPower
+- TX Power
 - Squelch
-- DualStandby
+- Dual Standby
 - Backlight
-- FreqStep
-- KeyBeep
-- ToggleSList
-- DTMFInput
-- DualDisplay
-- TXFrequency
+- Freq Step
+- Key Beep
+- Toggle SList
+- DTMF Input
+- Dual Display
+- TX Frequency
 - Lock
 - Spectrum
-- DarkTheme
-- RFGain
-- RegEditor
-- MicGain
+- Dark Theme
+- RF Gain
+- Reg Editor
+- Mic Gain
 - Modulation
 - Bandwidth
-- TXCTCSS/DCS
-- TXPriority
+- TX CTCSS/DCS
+- TX Priority
 
 **Spectrum**
 
@@ -244,79 +244,79 @@ Order is LNAS, LNA, MIX, PGA
 - 3737 ...  0dB
 
 **Main Menu Order**
--  1	StartupLogo
--  2	CellVoltage
--  3	StartupTone
--  4	StartupText
--  5	VoicePrompt
--  6	KeyBeep
--  7	TXTone
--  8	DualDisplay
--  9	TXPriority
-- 10	PowerSave
-- 11	FreqStep
-- 12	SquelchLevel
+-  1	Startup Logo
+-  2	Cell Voltage
+-  3	Startup Tone
+-  4	Startup Text
+-  5	Voice Prompt
+-  6	Key Beep
+-  7	TX Tone
+-  8	Dual Display
+-  9	TX Priority
+- 10	Power Save
+- 11	Freq Step
+- 12	Squelch Level
 - 13	Backlight
-- 14	LockTime
-- 15	TimeOfTalk
-- 16	VOXLevel
-- 17	VOXDelay
-- 18	NOAAMonitor
-- 19	FMStandby
-- 20	TailTone
+- 14	Lock Time
+- 15	Time Of Talk
+- 16	VOX Level
+- 17	VOX Delay
+- 18	NOAA Monitor
+- 19	FM Standby
+- 20	Tail Tone
 - 21	Scan>>>
-- 22	FSKID
-- 23	RepeaterMode
-- 24	ScanResume
-- 25	ScanLED
+- 22	FSK ID
+- 23	Repeater Mode
+- 24	Scan Resume
+- 25	Scan LED
 - 26	CTCSS/DCS
-- 27	RXCTCSS/DCS
-- 28	TXCTCSS/DCS
-- 29	TXPower
-- 30	MicGain
+- 27	RX CTCSS/DCS
+- 28	TX CTCSS/DCS
+- 29	TX Power
+- 30	Mic Gain
 - 31	Modulation
 - 32	Bandwidth
-- 33	ListToScan
-- 34	ChInList1
-- 35	ChInList2
-- 36	ChInList3
-- 37	ChInList4
-- 38	ChInList5
-- 39	ChInList6
-- 40	ChInList7
-- 41	ChInList8
-- 42	BusyLock
-- 43	InvertSpeech
-- 44	DCSEncrypt
-- 45	MuteCode
-- 46	ChannelName
-- 47	SaveChannel
-- 48	DeleteChannel
-- 49	Side1Long
-- 50	Side1Short
-- 51	Side2Long
-- 52	Side2Short
-- 53	Key0Long
-- 54	Key1Long
-- 55	Key2Long
-- 56	Key3Long
-- 57	Key4Long
-- 58	Key5Long
-- 59	Key6Long
-- 60	Key7Long
-- 61	Key8Long
-- 62	Key9Long
-- 63	Key*Long
-- 64	Key#Long
-- 65	KeyMenuLong
-- 66	KeyExitLong
-- 67	ResetKeys
-- 68	DTMFDelay
-- 69	DTMFInterval
-- 70	DTMFMode
-- 71	DTMFSelect
-- 72	DTMFDisplay
-- 73	DarkTheme
+- 33	List To Scan
+- 34	Ch In List 1
+- 35	Ch In List 2
+- 36	Ch In List 3
+- 37	Ch In List 4
+- 38	Ch In List 5
+- 39	Ch In List 6
+- 40	Ch In List 7
+- 41	Ch In List 8
+- 42	Busy Lock
+- 43	Invert Speech
+- 44	DCS Encrypt
+- 45	Mute Code
+- 46	Channel Name
+- 47	Save Channel
+- 48	Delete Channel
+- 49	Side 1 Long
+- 50	Side 1 Short
+- 51	Side 2 Long
+- 52	Side 2 Short
+- 53	Key 0 Long
+- 54	Key 1 Long
+- 55	Key 2 Long
+- 56	Key 3 Long
+- 57	Key 4 Long
+- 58	Key 5 Long
+- 59	Key 6 Long
+- 60	Key 7 Long
+- 61	Key 8 Long
+- 62	Key 9 Long
+- 63	Key * Long
+- 64	Key # Long
+- 65	Key Menu Long
+- 66	Key Exit Long
+- 67	Reset Keys
+- 68	DTMF Delay
+- 69	DTMF Interval
+- 70	DTMF Mode
+- 71	DTMF Select
+- 72	DTMF Display
+- 73	Dark Theme
 - 74	Initialize
 - 75	Version
 
