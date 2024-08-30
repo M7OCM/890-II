@@ -4,7 +4,7 @@
 
 For old PCB 2.0 model see [here](https://github.com/M7OCM/890)
 
-M7OCM v2.1.9 PCB 2.1 Firmware based on Open Edition Firmware Community [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
+M7OCM v2.2.0 PCB 2.1 Firmware based on Open Edition Firmware Community [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
 
 This is a personal project for my use primarily. Unfortunately, I cannot accomodate feature requests due to time constraints - this is just a hobby I do for fun (joke). Its "as is". If you don't like it, or it doesn't perform to your expectations don't use it or join forces - fork your own version, modify mine or start from scratch; code freely available here:
 
@@ -18,9 +18,9 @@ I endeavour to investigate issues I hear about and fix them (if I can recreate t
 
 **LATEST**
 
-13 August 2024 v2.1.9 PCB2.1
+30 August 2024 v2.2.0 PCB2.1 Fast scan/search introduced, only change from previous version
 
-UI. Light theme colours changed. Some were hard to see when the radio was used outside (not perfect, but hey ho). Signal strength meter split into thirds rather than quarters. Single Freq mode: register display order changed to reflect AM Fix code order (LNAS, LNA, MIX, PGA). BW and WK are tunable separately and on boot are defaulted BW4 WK0, feel free to adjust in either AGC or FGC modes BW2 WK1 are good for fine tuning.
+v2.1.9 PCB2.1 UI. Light theme colours changed. Some were hard to see when the radio was used outside (not perfect, but hey ho). Signal strength meter split into thirds rather than quarters. Single Freq mode: register display order changed to reflect AM Fix code order (LNAS, LNA, MIX, PGA). BW and WK are tunable separately and on boot are defaulted BW4 WK0, feel free to adjust in either AGC or FGC modes BW2 WK1 are good for fine tuning.
 
 The register order change makes cross referencing the gain table (see Register Editor below) much easier, especially for users experimenting with FGC (AM Fix off).
 
