@@ -261,7 +261,7 @@ The default border color used is grey (33808). The code change can be made in Ch
 - 7 1650Hz
 - 8 1700Hz
 
-## Features in v2.1.9 PCB 2.1
+## Features in v2.2.0 PCB 2.1
 
 - RX is unlocked 10 MHz to 1.3 GHz CAUTION experimental use only. BK4819 (useable) RX is approx 50-600 MHz; Reception outside of this range is possible but not guaranteed; radio may also exhibit erratic behaviour.
 
@@ -287,7 +287,7 @@ The default border color used is grey (33808). The code change can be made in Ch
 - Display dBM when receiving (calculation accuracy revised)
 - Reworked scan functionality
  - 8 Scan lists plus scan all
- - Unfortunately scan speed is limited to stock otherwise it breaks things
+ - Scan speed is maxed out faster than stock (works in search too)
  - Resume mode: Time/TO (5.5s), Carrier/CO (2.5s), No resume/SE
  - Change scan direction while scanning (up/down keys)
  - Force scan resume (up/down keys)
