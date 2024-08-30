@@ -317,7 +317,7 @@ Order is LNAS, LNA, MIX, PGA
 - 71	DTMF Select
 - 72	DTMF Display
 - 73	Dark Theme
-- 74	Initialize
+- 74	Initialize (VFO only)
 - 75	Version
 
 **Scan lists and Scanning**
