@@ -17,6 +17,7 @@ I endeavour to investigate issues I hear about and fix them (if I can recreate t
 ![20240814_080237](https://github.com/user-attachments/assets/c2572552-708f-4bb3-abf9-c4b41a471ef9)
 
 **LATEST**
+Please not I have reuploaded v2.2.0 and v2.2.1 files as they had the wrong version number - newer firmware just version info not updated :-(
 
 02 September 2024 v2.2.1 PCB2.1 Dialog box size, position, less obtrusive.
 
