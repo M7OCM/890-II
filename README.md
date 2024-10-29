@@ -4,7 +4,7 @@
 
 For old PCB 2.0 model see [here](https://github.com/M7OCM/890)
 
-M7OCM v2.2.1 PCB 2.1 Firmware based on Open Edition Firmware Community [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
+M7OCM v2.1.7+ PCB 2.1 Firmware based on Open Edition Firmware Community [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
 
 This is a personal project for my use primarily. Unfortunately, I cannot accomodate feature requests due to time constraints - this is just a hobby I do for fun (joke). Its "as is". If you don't like it, or it doesn't perform to your expectations don't use it or join forces - fork your own version, modify mine or start from scratch; code freely available here:
 
@@ -12,14 +12,13 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 
 [DualTachyon OEFW UV-K5/RT-890](https://github.com/dualtachyon)
 
-I endeavour to investigate issues I hear about and fix them (if I can recreate them). I cannot set a time scale when or if fixes will be made. I'm sure all manner of weirdness can be created with non standard operating (lol). If the latest version exhibits such, try an earlier version or return to stock V1.37, then try again.
-
 ![20240814_080237](https://github.com/user-attachments/assets/c2572552-708f-4bb3-abf9-c4b41a471ef9)
 
 **LATEST**
-Please not I have reuploaded v2.2.0 and v2.2.1 files as they had the wrong version number - newer firmware just version info not updated :-(
 
-02 September 2024 v2.2.1 PCB2.1 Dialog box size, position, less obtrusive.
+29 October 2024 v2.2.2 PCB2.1 filter range change from 240 MHz to 280 MHz, ui various/menu renames, user interfacing - added functional stability, fixes, minor code clean up.
+
+v2.2.1 PCB2.0 Dialog box size, position, less obtrusive.
 
 v2.2.0 PCB2.1 Fast scan/search introduced, only change from previous version.
 
@@ -39,6 +38,10 @@ There are a lot of UI changes, plus the scan speed has been reduced to stock for
 
 Thanks to Kevin @Radtel for the latest hardware for testing firmware compatibility.
 
+[OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
+
+[DualTachyon OEFW UV-K5/RT-890](https://github.com/dualtachyon)
+
 **Default Keys**
 
 - Side Key [1SP] Monitor
@@ -55,9 +58,9 @@ The following keypad keys are all LP
 - [3] Bandwidth
 - [4] TX Power
 - [5] AM Fix
-- [6] Dual Standby
+- [6] Dual Watch
 - [7] Repeater Mode
-- [8] Reg Editor
+- [8] Reg Editor - RF Gain Control
 - [9] Scan List Add or remove a channel to current scan list
 - [0] FMB
 - [*] Edit TX Freq
@@ -70,7 +73,7 @@ Side Key/Custom Key(pad) Options
 - Monitor
 - Freq Detect
 - Repeat Mode
-- Preset CH
+- Preset Ch
 - Local Alarm
 - Remote Alarm
 - NOAA
@@ -83,11 +86,11 @@ Side Key/Custom Key(pad) Options
 - VOX
 - TX Power
 - Squelch
-- Dual Standby
+- Dual Watch
 - Backlight
 - Freq Step
 - Key Beep
-- Toggle SList
+- +/- Scan L#
 - DTMF Input
 - Dual Display
 - TX Frequency
@@ -115,7 +118,7 @@ Enter by pressing side key 2 LP
 - [6] Increase squelch level
 - [7] Hold/Search (in hold, use up/down to adjust main frequency - useful to avoid RFI)
 - [9] Decrease squelch level
-- [0] Toggle filter (X = unfiltered, F = filtered)
+- [0] Toggle v/u band filter (F = On, X = Off)
 - [*] Change scan delay (0 - 10ms)
 - [#] Toggle bandwidth (25.0K = wide, 12.5K = narrow)
 - [MENU] Jump to VFO mode with current frequency and settings (to allow TX)
@@ -261,13 +264,13 @@ Order is LNAS, LNA, MIX, PGA
 - 12	Squelch Level
 - 13	Backlight
 - 14	Lock Time
-- 15	Time Of Talk
+- 15	Time of Talk
 - 16	VOX Level
 - 17	VOX Delay
 - 18	NOAA Monitor
 - 19	FM Standby
 - 20	Tail Tone
-- 21	Scan>>>
+- 21	Scan >Dir<
 - 22	FSK ID
 - 23	Repeater Mode
 - 24	Scan Resume
@@ -279,15 +282,15 @@ Order is LNAS, LNA, MIX, PGA
 - 30	Mic Gain
 - 31	Modulation
 - 32	Bandwidth
-- 33	List To Scan
-- 34	Ch In List 1
-- 35	Ch In List 2
-- 36	Ch In List 3
-- 37	Ch In List 4
-- 38	Ch In List 5
-- 39	Ch In List 6
-- 40	Ch In List 7
-- 41	Ch In List 8
+- 33	Scan L? >Scan
+- 34    Ch -> Scan L1
+- 35    Ch -> Scan L2
+- 36    Ch -> Scan L3
+- 37    Ch -> Scan L4
+- 38    Ch -> Scan L5
+- 39    Ch -> Scan L6
+- 40    Ch -> Scan L7
+- 41    Ch -> Scan L8
 - 42	Busy Lock
 - 43	Invert Speech
 - 44	DCS Encrypt
@@ -295,24 +298,24 @@ Order is LNAS, LNA, MIX, PGA
 - 46	Channel Name
 - 47	Save Channel
 - 48	Delete Channel
-- 49	Side 1 Long
-- 50	Side 1 Short
-- 51	Side 2 Long
-- 52	Side 2 Short
-- 53	Key 0 Long
-- 54	Key 1 Long
-- 55	Key 2 Long
-- 56	Key 3 Long
-- 57	Key 4 Long
-- 58	Key 5 Long
-- 59	Key 6 Long
-- 60	Key 7 Long
-- 61	Key 8 Long
-- 62	Key 9 Long
-- 63	Key * Long
-- 64	Key # Long
-- 65	Key Menu Long
-- 66	Key Exit Long
+- 49	Side Key 1 LP
+- 50	Side Key 1 SP
+- 51	Side Key 2 LP
+- 52	Side Key 2 SP
+- 53	Key 0 LP
+- 54	Key 1 LP
+- 55	Key 2 LP
+- 56	Key 3 LP
+- 57	Key 4 LP
+- 58	Key 5 LP
+- 59	Key 6 LP
+- 60	Key 7 LP
+- 61	Key 8 LP
+- 62	Key 9 LP
+- 63	Key * LP
+- 64	Key # LP
+- 65	Key Menu LP
+- 66	Key Exit LP
 - 67	Reset Keys
 - 68	DTMF Delay
 - 69	DTMF Interval
@@ -320,20 +323,20 @@ Order is LNAS, LNA, MIX, PGA
 - 71	DTMF Select
 - 72	DTMF Display
 - 73	Dark Theme
-- 74	Initialize (VFO only)
-- 75	Version
+- 74	Reboot
+- 75	Firmware
 
 **Scan lists and Scanning**
 
 There are 8 scan lists plus scan all. Active lists are displayed in the status bar when scanning.
 
-The current channel can be added to any scanlist using the Ch In List # menus.
+The current channel can be added to any scanlist using the Ch -> Scan L# menus.
 
-The scanlist to be used can be selected in the List To Scan menu.
+The scanlist to be used can be selected in the Scan L? >Scan menu.
 
-To ignore scanlists and scan all channels, select Scan All in the List To Scan menu.
+To ignore scanlists and scan all channels, select Scan All.
 
-To add/remove current channel to/from current scanlist, use the Toggle SList shortcut which is Key 9.
+To add/remove current channel to/from current scanlist, use the +/- Scan L# shortcut which is Key 9.
 
 To start scanning, press a key mapped to the Freq scanner shortcut (default: short press side key 2).
 
@@ -356,7 +359,7 @@ Chirp Next instructions: Open in Developer mode, restart, load module (a modifie
 - Vendor: Radtel, Model: RT-890 M7OCM
 - Vendor: Ruyage, Model: UV58Plus (older version)
 
-The Chirp driver is a WIP. 8.333kHz channels can be entered and saved as can any frequency in the range 10MHz to 1.3GHz. All modulation modes. Scan Lists can be modified. Border colour can be changed and basic radio functions adjusted. Not all key actions save however. A key reset Menu #67 after upload fixes that. I recommend making copies of data files on a regular basis just in case a file becomes corrupted which may happen when switching between different firmware versions (latest always works).
+The Chirp driver is a WIP. 8.333kHz channels can be entered and saved as can any frequency in the range 10MHz to 1.3GHz. All modulation modes. Scan Lists can be modified. Border colour can be changed and basic radio functions adjusted. Not all key actions save however. A key reset Menu #67 after upload fixes that. I advise making copies of data files on a regular basis just in case a file becomes corrupted which may happen when switching between different firmware versions (latest always works).
 
 Note. When entering a 8.333kHz frequency in Chirp, this needs to be entered in its entirety eg 118.00833 (note the 5 decimal places). Attempting to enter or copy/paste from a CSV file something like 133.91667 or 133.91670 will not work. Enter the full correct step size ie 133.91666.
 
@@ -364,7 +367,7 @@ Note. When entering a 8.333kHz frequency in Chirp, this needs to be entered in i
 
 Default [0/FM], toggle FMB On/FMB Idle. The 4 digit FM frequency now appears in the upper left part of the status bar. It works the same as stock just without the garbage graphics. Turn on FM Standby via menu, and you can listen to FMB while scanning/searching. When a signal is present the FM radio will mute, then continue until another signal appears - pretty cool! Note using the FMB after Spectrum may result in poor reception, no reception or work as normal, this is generally linked to specfic bands such as 440 MHz (probably many more). Open squelch to reset chip registers usually works, reboot, or select scan then FMB. This is a known issue. The radio uses a dedicated FMB chip not the BK4819. Resetting the latter clears any issues though.
 
-To clear the idle frequency, press [0/FM] or [PTT] then [MENU].
+To clear press [0/FM].
 
 **Status Bar**
 
@@ -383,29 +386,29 @@ The default border color used is grey (33808). The code change can be made in Ch
 - 7 1650Hz
 - 8 1700Hz
 
-## Features in latest version PCB 2.1
+## Features in latest version
 
 - RX is unlocked 10 MHz to 1.3 GHz CAUTION experimental use only. BK4819 (useable) RX is approx 50-600 MHz; Reception outside of this range is possible but not guaranteed; radio may also exhibit erratic behaviour.
-
-- TX 2m/70cm officially, plus various VHF/UHF bands 136-470 MHz. Output varies by band: 2-6W generally on High; max 3.6W on Low power - all figures approx - your mileage may vary - PCB 2.1 output is identical to PCB 2.0, so no "real" low power setting 💀 CAUTION do not TX outside of chip specification, it could destroy your radio and/or breach your country of residence radio communications laws/license agreement 💀
-
+- TX 2m/70cm officially, plus various VHF/UHF bands 136-470 MHz. Output varies by band: 2-6W generally on High; max 3.6W on Low power - all figures approx - your mileage may vary 💀 CAUTION do not TX outside of chip specification, it could destroy your radio and/or breach your country of residence radio communications laws/license agreement 💀
 - 0.01 kHz to 5 MHz steps
 - 999 channel memory
 - (N/W)FM, (N/W)AM and SSB (SB) (LSB/USB) modulation
 - Light and dark theme, user selectable
 - Restyled ui, fixed alignment issues, renamed menu items, new use for status bar (Scan List #), colour changes, font changes, improved clarity etc
 - Squelch sensitivty and S-meter revisions
+- Extended monitor functionality with up/down keys (monitor open)
 - DCS RX revised/Freq Detect DCS fixed
 - PTT BCLO TX during monitor revised, PTT now TX when monitor is open
 - RSSI timer speed reduction to reduce internal RFI caused by SPI (screen) updates
 - Full colour spectrum with control options, views
-- AM Fix ported from 1 of 11's UV-K5 firmware, tuned for RT-890
+- AM Fix ported from 1 of 11's UV-K5 firmware (modified by me)
 - DTMF/FSK dialog operation is now dual mode only, no FSK ID/DTMF decode dialog box in single/register screen
 - RF Gain Control and Register Editor
 - Flashlight Mode
 - NOAA Monitor
 - Custom side key and configurable "quick access" keypad keys
 - Clock speed 120 MHz (stock 72 MHz)
+- VHF filter cut is now 280 MHz (was 240 MHz)
 - Display BK4819 AGC Modes/battery voltage registers in single VFO mode
 - Display dBM when receiving (calculation accuracy revised)
 - Reworked scan functionality
@@ -441,6 +444,8 @@ OEFWCOM is an ongoing development project by enthusiasts, in their own time and 
 LCiccio
 
 Marcos
+
+[Omegatee](https://github.com/omegatee/RT-890-custom-firmware)
 
 [Psy97x](https://github.com/Psy97x)
 
