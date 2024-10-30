@@ -12,7 +12,7 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 
 [DualTachyon OEFW UV-K5/RT-890](https://github.com/dualtachyon)
 
-![20240814_080237](https://github.com/user-attachments/assets/c2572552-708f-4bb3-abf9-c4b41a471ef9)
+![20241030_163100](https://github.com/user-attachments/assets/4a0da61f-f4b3-433a-9019-71fe09716fea)
 
 **LATEST**
 
