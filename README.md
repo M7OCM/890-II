@@ -16,7 +16,7 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 
 **LATEST**
 
-29 October 2024 v2.2.2 PCB2.1 filter range change from 240 MHz to 280 MHz, ui various/menu renames, user interfacing - added functional stability, fixes, minor code clean up.
+2 November 2024 v2.2.2 PCB2.1 VHF filter range choice - choose either bin 240 MHz or 280 MHz, ui various/menu renames, user interfacing - added functional stability, fixes, minor code clean up.
 
 v2.2.1 PCB2.0 Dialog box size, position, less obtrusive.
 
