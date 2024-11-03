@@ -408,7 +408,7 @@ The default border color used is grey (33808). The code change can be made in Ch
 - NOAA Monitor
 - Custom side key and configurable "quick access" keypad keys
 - Clock speed 120 MHz (stock 72 MHz)
-- VHF filter cut is now 280 MHz (was 240 MHz)
+- VHF filter cut is available in stock 240 MHz or 280 MHz (2 bin files)
 - Display BK4819 AGC Modes/battery voltage registers in single VFO mode
 - Display dBM when receiving (calculation accuracy revised)
 - Reworked scan functionality
