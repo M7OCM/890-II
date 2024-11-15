@@ -446,7 +446,7 @@ LCiccio
 
 Marcos
 
-[Omegatee](https://github.com/omegatee/RT-890-custom-firmware)
+[Omegatee APRS HW Mod](https://github.com/omegatee/RT-890-APRS-GPS-Feat)
 
 [Psy97x](https://github.com/Psy97x)
 
