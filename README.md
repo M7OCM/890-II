@@ -16,7 +16,9 @@ This is a personal project for my use primarily. Unfortunately, I cannot accomod
 
 **LATEST**
 
-2 November 2024 v2.2.2 PCB2.1 VHF filter range choice - choose either bin 240 MHz or 280 MHz, ui various/menu renames, user interfacing - added functional stability, fixes, minor code clean up.
+15 November 2024 v2.2.3 PCB2.1 VHF filter returned to 240 MHz, ui dialog overlays fixed
+
+v2.2.2 PCB2.1 VHF filter range choice - choose either bin 240 MHz or 280 MHz, ui various/menu renames, user interfacing - added functional stability, fixes, minor code clean up.
 
 v2.2.1 PCB2.0 Dialog box size, position, less obtrusive.
 
@@ -121,7 +123,7 @@ Enter by pressing side key 2 LP
 - [0] Toggle v/u band filter (F = On, X = Off)
 - [*] Change scan delay (0 - 10ms)
 - [#] Toggle bandwidth (25.0K = wide, 12.5K = narrow)
-- [MENU] Jump to VFO mode with current frequency and settings (to allow TX)
+- [MENU] Jump to VFO mode with current frequency and bandwidth (to allow TX FM only)
 - [EXIT] Return to main
 
 SP [#] switch between VFO-CH mode
@@ -408,7 +410,6 @@ The default border color used is grey (33808). The code change can be made in Ch
 - NOAA Monitor
 - Custom side key and configurable "quick access" keypad keys
 - Clock speed 120 MHz (stock 72 MHz)
-- VHF filter cut is available in stock 240 MHz or 280 MHz (2 bin files)
 - Display BK4819 AGC Modes/battery voltage registers in single VFO mode
 - Display dBM when receiving (calculation accuracy revised)
 - Reworked scan functionality
