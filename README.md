@@ -16,7 +16,9 @@ This is a personal project for my use primarily with emphasis on VHF/UHF airband
 
 **LATEST**
 
-15 November 2024 v2.2.3 PCB2.1 VHF filter returned to 240 MHz, ui dialog overlays fixed
+19 November 2024 v2.2.3Q PCB2.1 Spectrum Auto Light squelch. A good battery saver and for using the spectrum to monitor a range of channels such as the 16 PMR446 channels or the entire VHF Marine band at once. No delays faster than scanning same in memory. Read the instructions below for more info (**Spectrum**).
+
+v2.2.3 PCB2.1 VHF filter returned to 240 MHz, ui dialog overlays fixed
 
 v2.2.2 PCB2.1 VHF filter range choice - choose either bin 240 MHz or 280 MHz, ui various/menu renames, user interfacing - added functional stability, fixes, minor code clean up.
 
@@ -114,6 +116,7 @@ Enter by pressing side key 2 LP
 - [Up] Increase frequency range
 - [Down] Decrease frequency range
 - [1] Change scan step (16, 32, 64 or 128)
+- [2] Backlight override SAL *("Q" versions only)*
 - [3] Change modulation FM, AM or SB (SSB)
 - [4] Change step size (0.25k - 50k)
 - [5] Switch spectrum modes (toggle 1-4)
@@ -127,6 +130,20 @@ Enter by pressing side key 2 LP
 - [EXIT] Return to main
 
 SP [#] switch between VFO-CH mode
+
+*Spectrum Auto Light (SAL) "Q" versions only - all other versions backlight is always on*
+
+The squelch threshold determines the auto display lighting. In as much as when no signal is received the display will go off (technically the display LED is off, the screen itself is always on).
+
+Firstly, find an appropriate squelch threshold above the noise level (Key 9). Increase it if need be by pressing Key 6 (even if screen is off). Think of Key 6 as an adjustable screen off switch.
+
+If the screen light goes off due to an incoming signal, short press Key 2 (once) to illuminate the display. The LED on top of the radio will be a steady orange colour when Key 2 is active. When a signal is received the spectrum screen will stay on for the duration of RX then extinguish. There is no delay timer to hasten response time (faster than scanning). When in RX mode the top LED is green. When the display is off, the top LED colour will also be off.
+
+To keep the display illuminated longer increase squelch threshold.
+
+Note, interference will also turn the display on. Solution, increase squelch threshold.
+
+Scan Delay can be adjusted by Key [*] to prevent excessive screen flashing due to RFI, I'd suggest a value of 8+ if the default (4) is troublesome.
 
 **Register Editor**
 
