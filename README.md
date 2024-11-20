@@ -135,7 +135,7 @@ SP [#] switch between VFO-CH mode
 
 The squelch threshold determines the auto display lighting. In as much as when no signal is received the display will go off (technically the display LED is off, the screen itself is always on).
 
-Firstly, find an appropriate squelch threshold above the noise level (Key 9). Increase it if need be by pressing Key 6 (even if screen is off). Think of Key 6 as an adjustable screen off switch.
+Firstly, find an appropriate squelch threshold above the noise level (Key 9). Increase it if need be by pressing Key 6 (even if screen is off). Think of Key 6 as an adjustable screen on switch.
 
 If the screen light goes off due to an incoming signal, short press Key 2 (once) to illuminate the display. The LED on top of the radio will be a steady orange colour when Key 2 is active. When a signal is received the spectrum screen will stay on for the duration of RX then extinguish. There is no delay timer to hasten response time (faster than scanning). When in RX mode the top LED is green. When the display is off, the top LED colour will also be off.
 
