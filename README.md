@@ -16,7 +16,9 @@ This is a personal project for my use primarily with emphasis on VHF/UHF airband
 
 **LATEST**
 
-19 November 2024 v2.2.3Q PCB2.1 Spectrum Auto Light squelch. A good battery saver and for using the spectrum to monitor a range of channels such as the 16 PMR446 channels or the entire VHF Marine band at once. No delays faster than scanning same in memory. Read the instructions below for more info (**Spectrum**).
+23 November 2024 23 November 2024 2 bin files: v2.2.4Q and v2.2.4X both for PCB2.1. Q = Spectrum Auto Light; X = Standard light always on. Both versions updated with newer widescreen spectrum and code clean.
+
+v2.2.3Q PCB2.1 Spectrum Auto Light squelch. A good battery saver and for using the spectrum to monitor a range of channels such as the 16 PMR446 channels or the entire VHF Marine band at once. No delays faster than scanning same in memory. Read the instructions below for more info (**Spectrum**).
 
 v2.2.3 PCB2.1 VHF filter returned to 240 MHz, ui dialog overlays fixed
 
