@@ -141,7 +141,7 @@ The squelch threshold determines the auto display lighting. In as much as when n
 
 Firstly, find an appropriate squelch threshold above the noise level (Key 9). Increase it if need be by pressing Key 6 (even if screen is off).
 
-If the screen light goes off due to an incoming signal, short press Key 2 (once) to illuminate the display. The LED on top of the radio will be a steady orange colour when Key 2 is active. When a signal is received the spectrum screen will stay on for the duration of RX then extinguish. There is no delay timer to hasten response time (faster than scanning). When in RX mode the top LED is green. When the display is off, the top LED colour will also be off.
+If the screen light goes off after an incoming signal and you want to change a setting, short press Key 2 (once) to illuminate the display. The LED on top of the radio will be a steady orange (yellow-ish) colour when Key 2 is active. When a signal is received the spectrum screen will stay on for the duration of RX then extinguish. There is no delay timer to hasten response time (faster than scanning). When in RX mode the top LED is green. When the display is off, the top LED colour will also be off.
 
 To keep the display illuminated longer increase squelch threshold.
 
