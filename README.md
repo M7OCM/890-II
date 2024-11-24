@@ -409,6 +409,8 @@ The default border color used is grey (33808). The code change can be made in Ch
 - 7 1650Hz
 - 8 1700Hz
 
+![20241124_154026](https://github.com/user-attachments/assets/d4bbf956-dd22-47fe-b5ad-f6369c8738e7)
+
 ## Features in latest version
 
 - RX is unlocked 10 MHz to 1.3 GHz CAUTION experimental use only. BK4819 (useable) RX is approx 50-600 MHz; Reception outside of this range is possible but not guaranteed; radio may also exhibit erratic behaviour.
