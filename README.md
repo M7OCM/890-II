@@ -135,7 +135,9 @@ Enter by pressing side key 2 LP
 
 SP [#] switch between VFO-CH mode
 
-I personally don't recommend using AM Fix while in the spectrum, turn off (LP key 5) and select FGC 2 from Reg Editor for a better listening experience.
+I personally don't recommend using AM Fix while in the spectrum, turn off (LP key 5) for a better listening experience.
+
+Note PCB2.0 differs in AM overloading and generally requires manual gain setting, PCB2.1 does not.
 
 *Spectrum Auto Light (SAL) "Q" versions only - all other versions backlight is always on*
 
