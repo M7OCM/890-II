@@ -135,6 +135,8 @@ Enter by pressing side key 2 LP
 
 SP [#] switch between VFO-CH mode
 
+I personally don't recommend using AM Fix while in the spectrum, turn off (LP key 5) and select FGC 2 from Reg Editor for a better listening experience.
+
 *Spectrum Auto Light (SAL) "Q" versions only - all other versions backlight is always on*
 
 The squelch threshold determines the auto display lighting. In as much as when no signal is received the display will go off (technically the display LED is off, the screen itself is always on).
