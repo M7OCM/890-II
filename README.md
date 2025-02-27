@@ -16,6 +16,12 @@ This is a personal project for my use primarily with emphasis on VHF/UHF airband
 
 **LATEST**
 
+February 2025
+
+I have ended RT-890 firmware development on github, but the code will remain open for further development.
+
+The first official and potentially final firmware release v3.0 is only available from [radtels.com](https://www.radtels.com/pages/software-download)
+
 26 December 2024 v2.2.5X for PCB2.0. A fix for a fix! DCS fixed again lol
 
 v2.2.4Q and v2.2.4X both for PCB2.1. Q = Spectrum Auto Light; X = Standard light always on. Both versions updated with newer widescreen spectrum and code clean.
