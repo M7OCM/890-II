@@ -1,5 +1,15 @@
 # Modified OEFWCOM Transceiver Firmware for Radtel RT-890
 
+Please read first...
+
+Marcus [(Nicsure)](https://github.com/nicsure/RT-890-custom-firmware) recently commenced firmware development of the venerable RT-890 PCB1/2. So I highly recommend checking out his work, on here, Facebook, YouTube etc for news and improvements akin to the Tid Radio mod (hopefully).
+
+I've been associated with this open project since October 2023, but I am no longer involved. It is pleasing to see a very experienced developer take the plunge with what has been a challenging experience 😉
+
+It was always a personal project and shared as is, an alternative version to OEFWCOM if you like. I have no background in firmware development or C and learnt a lot from the original OEFWCOM coders and Dual Dual Tachyon's live late night Telegram messages when the reverse engineering and cursing took place. All credit to him, was a blast mate.
+
+Good luck Marcus much success.
+
 **890-II PCB 2.1 Only**
 
 For old PCB 2.0 model see [here](https://github.com/M7OCM/890)
