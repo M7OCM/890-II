@@ -4,7 +4,7 @@ Please read first...
 
 Marcus [(Nicsure)](https://github.com/nicsure/RT-890-custom-firmware) recently commenced firmware development of the venerable RT-890 PCB1/2. So I highly recommend checking out his work, on here, Facebook, YouTube etc for news and improvements akin to the Tid Radio mod (hopefully).
 
-I've been associated with this open project since October 2023, but I am no longer involved. It is pleasing to see a very experienced developer take the plunge with what has been a challenging experience 😉
+I've been associated with this open project since October 2023, not involved on a daily basis. It is pleasing to see a very experienced developer take the plunge with what has been a challenging radio 😉
 
 It was always a personal project and shared as is, an alternative version to OEFWCOM if you like. I have no background in firmware development or C and learnt a lot from the original OEFWCOM coders and Dual Dual Tachyon's live late night Telegram messages when the reverse engineering and cursing took place. All credit to him, was a blast mate.
 
@@ -26,11 +26,11 @@ This is a personal project for my use primarily with emphasis on VHF/UHF airband
 
 **LATEST**
 
-February 2025
+March 2025
 
-I have ended RT-890 firmware development on github, but the code will remain open for further development.
+The next non github firmware release v3.2 will be available ASAP (PCB 2.1), from [radtels.com](https://www.radtels.com/pages/software-download) All files on this repo should therefore be treated as highly experimental in nature and for testing only.
 
-The official firmware release v3.1 will be available soon, from [radtels.com](https://www.radtels.com/pages/software-download)
+Side note. While the firmware enables the frequency range above and below the chip specs don't expect it to RX or TX on CB radio, 6m, 4m, airband (RX only) or TX on anything that isn't 2m/70cm (please check harmonics in all instances). 
 
 26 December 2024 v2.2.5X for PCB2.0. A fix for a fix! DCS fixed again lol
 
