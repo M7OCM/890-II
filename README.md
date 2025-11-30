@@ -1,5 +1,7 @@
 # Modified OEFWCOM Transceiver Firmware for Radtel RT-890
 
+News 30 Nov 2025 [New custom firmware](https://github.com/M7OCM/mono890)
+
 Please read first...
 
 Marcus [(Nicsure)](https://github.com/nicsure/RT-890-custom-firmware) recently commenced firmware development of the venerable RT-890 PCB1/2. So I highly recommend checking out his work, on here, Facebook, YouTube etc for news and improvements akin to the Tid Radio mod (hopefully).
