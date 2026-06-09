@@ -2,7 +2,7 @@
 
 News June 2026 [New custom 890 firmware](https://github.com/M7OCM/mono890)
 
-The final full colour v3.2 firmware has been uploaded as its no longer available on Radtels.com use this over experimental releases on this repo.
+The final full colour v3.2 firmware (m7ocm-v3.2-pcb2.1.bin) has been uploaded as its no longer available on Radtels.com use this over experimental releases on this repo.
 
 **890-II PCB 2.1 Only**
 
