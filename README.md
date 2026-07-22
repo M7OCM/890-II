@@ -1,6 +1,6 @@
 # Modified OEFWCOM Transceiver Firmware for Radtel RT-890
 
-WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has made a hardware revision making all custom firmware currently available incompatible resulting in display issues. If Radtel shares the actually hardware changes (most likely LCD driver) it can be fixed. For the time being do not use this firmware. As always use at own risk.
+WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has made a hardware revision making all custom firmware currently available incompatible resulting in display issues. If Radtel shares the actual hardware changes (most likely LCD driver) it can be fixed. For the time being do not use this firmware. As always use at own risk.
 
 News June 2026 [New custom 890 firmware](https://github.com/M7OCM/mono890)
 
