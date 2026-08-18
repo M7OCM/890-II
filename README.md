@@ -6,7 +6,7 @@ I have a PCB2.1Q model I purchased from Radtel but the driver does not work and 
 
 As always use at own risk.
 
-Radtel has also provided the OEM Q file which is here to download and will fix the display.
+Radtel has provided the OEM Q file which is here to download and will fix the display.
 
 News June 2026 [New custom 890 firmware](https://github.com/M7OCM/mono890)
 
