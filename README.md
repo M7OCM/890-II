@@ -1,10 +1,12 @@
 # Modified OEFWCOM Transceiver Firmware for Radtel RT-890
 
-WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has made a hardware revision making all custom firmware currently available incompatible resulting in display issues. Radtel has kindly shared the technical data required to incorporate this new LCD driver information into M7OCM custom firmware. Thanks Radtel.
+WARNING DO NOT USE ON PCB2.1Q VERSION, the original manufacturer has started using a GC9106 LCD making all custom firmware currently available incompatible as the firmware is written for the ST7735S
+
+I have a PCB2.1Q model I purchased from Radtel but the driver does not work and render correctly. Despite reverse engineering a decompiled firmware and sourcing the correct init sequence, positional data etc, there is currently no way to fully integrate the entire ST7735S UI without some serious changes which take time and effort. So unfortunately for now it's a dead end.
 
 As always use at own risk.
 
-Radtel has also provided the OEM Q file which is here to download and should fix the display issue until custom firmware is available.
+Radtel has also provided the OEM Q file which is here to download and will fix the display.
 
 News June 2026 [New custom 890 firmware](https://github.com/M7OCM/mono890)
 
