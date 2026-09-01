@@ -8,7 +8,7 @@ The final full colour v3.2 firmware (m7ocm-v3.2-pcb2.1.bin) has been uploaded as
 
 **890-II PCB 2.1 Only**
 
-For old PCB 2.0 model see [here](https://github.com/M7OCM/890)
+For old PCB 2.0 model see [here.](https://github.com/M7OCM/890)
 
 M7OCM v2.1.7+ PCB 2.1 Firmware based on Open Edition Firmware Community.
 
