@@ -2,7 +2,7 @@
 
 As always use at own risk.
 
-This repo is not being updated, all new firmware is now [here](https://github.com/M7OCM/mono890)
+This repo is not being updated, all new firmware is now [here.](https://github.com/M7OCM/mono890)
 
 The final full colour v3.2 firmware (m7ocm-v3.2-pcb2.1.bin) has been uploaded as its no longer available on Radtels.com use this over experimental releases on this repo.
 
